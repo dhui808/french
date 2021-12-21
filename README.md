@@ -5,6 +5,7 @@ Common French expression
     ou: like in book in en. bonjour
     oi: like wa in en.      bonsoir, poisson
     eau: like in book inen
+    au: like o
 
 ## Common words
     Bonjour
