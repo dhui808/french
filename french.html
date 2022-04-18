@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- Serve this file from Web Server for Chrome. -->
+<html>
+<head>
+<link rel="stylesheet" href="css.css">
+<script src="js.js"></script>
+<script src="w3.js"></script>
+</head>
+
+<body>
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'greeting')">Salutation</button>
+  <button class="tablinks" onclick="openTab(event, 'expressions')">expressions</button>
+  <button class="tablinks" onclick="openTab(event, 'family1')">famille</button>
+  <button class="tablinks" onclick="openTab(event, 'pronouns')">Les pronoms</button>
+  <button class="tablinks" onclick="openTab(event, 'adjectives')">Les adjectifs</button>
+  <button class="tablinks" onclick="openTab(event, 'verbs')">Les verbes</button>
+  <button class="tablinks" onclick="openTab(event, 'negation')">negation</button>
+  <button class="tablinks" onclick="openTab(event, 'connectionwords')">connection words</button>
+  <button class="tablinks" onclick="openTab(event, 'food')">La nourriture</button>
+  <button class="tablinks" onclick="openTab(event, 'people')">Personnes</button>
+  <button class="tablinks" onclick="openTab(event, 'numbers')">Nombres</button>
+  <button class="tablinks" onclick="openTab(event, 'covid')">Covid</button>
+  <button class="tablinks" onclick="openTab(event, 'environment')">Environnement</button>
+  <button class="tablinks" onclick="openTab(event, 'restaurant1')">Le restaurant</button>
+  <button class="tablinks" onclick="openTab(event, 'opinion')">Oui/Non</button>
+  <button class="tablinks" onclick="openTab(event, 'questionanswer')">Questions et réponses</button>
+  <button class="tablinks" onclick="openTab(event, 'shortwords')">Mots courts</button>
+  <button class="tablinks" onclick="openTab(event, 'ouino')">Ouino</button>
+  <button class="tablinks" onclick="openTab(event, 'alexa')">Alexa</button>
+  <button class="tablinks" onclick="openTab(event, 'kendra')">Kendra</button>
+  <button class="tablinks" onclick="openTab(event, 'time')">Date & Time</button>
+  <button class="tablinks" onclick="openTab(event, 'workspace')">Workspace</button>
+</div>
+
+<!-- Tab content -->
+<div id="greeting" class="tabcontent">
+	<div w3-include-HTML="greeting/greeting.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="expressions" class="tabcontent">
+	<div w3-include-HTML="expressions/expressions.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="family1" class="tabcontent">
+	<div w3-include-HTML="family1/family.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="pronouns" class="tabcontent">
+	<div w3-include-HTML="pronouns/pronouns.html" style="white-space:nowrap;"></div>
+</div>
+
+
+<div id="adjectives" class="tabcontent">
+	<div w3-include-HTML="pronouns/pronouns.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="verbs" class="tabcontent">
+  <div w3-include-HTML="verbs/verbs.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="negation" class="tabcontent">
+  <div w3-include-HTML="negation/negation.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="connectionwords" class="tabcontent">
+  <div w3-include-HTML="connectionwords/connectionwords.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="food" class="tabcontent">
+  <div w3-include-HTML="food/food.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="people" class="tabcontent">
+  <div w3-include-HTML="people/people.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="numbers" class="tabcontent">
+  <div w3-include-HTML="numbers/numbers.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="covid" class="tabcontent">
+  <div w3-include-HTML="covid/covid.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="environment" class="tabcontent">
+  <div w3-include-HTML="environment/environment.html" style="white-space:nowrap;"></div>
+
+</div>
+
+<div id="restaurant1" class="tabcontent">
+  <div w3-include-HTML="restaurant1/restaurant1.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="opinion" class="tabcontent">
+  <div w3-include-HTML="opinion/opinion.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="questionanswer" class="tabcontent">
+  <div w3-include-HTML="questionanswer/questionanswer.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="shortwords" class="tabcontent">
+  <div w3-include-HTML="shortwords/shortwords.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="ouino" class="tabcontent">
+  <div w3-include-HTML="ouino/ouino.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="alexa" class="tabcontent">
+  <div w3-include-HTML="alexa/alexa.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="kendra" class="tabcontent">
+  <div w3-include-HTML="kendra/kendra.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="time" class="tabcontent">
+  <div w3-include-HTML="time/time.html" style="white-space:nowrap;"></div>
+</div>
+
+<div id="workspace" class="tabcontent">
+  <div w3-include-HTML="workspace/workspace.html" style="white-space:nowrap;"></div>
+</div>
+
+<div style="visibility: hidden;">
+ffmpeg -i Recording.m4a -vn -s 00:00:06 -acodec libmp3lame "C:\Users\danny.hui\OneDrive - Accenture\research\html5\french"\ouino\direction\takefirststreetright.mp3
+</div>
+
+<script>w3.includeHTML();</script>
+
+</body>
+</html>

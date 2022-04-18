@@ -1,0 +1,105 @@
+
+/* row */
+#container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin-left: 10px;
+}
+#container-compact {
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
+}
+div p.desc-long {
+  width: 350px;
+  word-wrap: break-word;
+}
+div.long-content {
+  display: inline-block;
+}
+pre {
+	margin-left: 10px;
+}
+
+#desc {
+  margin-left: 10px;
+  width: 300px;
+  word-wrap: break-word;
+}
+#desc-fr {
+  width: 500px;
+}
+#desc-en {
+  width: 500px;
+  margin-left: 40px;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab-vertical {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 800px;
+}
+
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab-vertical button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover, .tab-vertical button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active, .tab-vertical button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 0px;
+  border: 1px solid #ccc;
+  border-top: none;
+  height: 800px;
+}
+
+.verticaltabcontent {
+  float: left;
+  padding: 0px 12 px;
+  border: 1px solid #ccc;
+  width: 75%;
+  border-left: none;
+  display:none;
+}
